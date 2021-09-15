@@ -1,0 +1,8 @@
+*Cria pods
+kubectl apply -f ".\platforms-depl.yaml"
+
+*Visualizar cluster
+kubectl get deployment
+
+*Visualizar pods
+kubectl get pods
