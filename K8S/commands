@@ -1,8 +1,14 @@
-*Cria pods
+*Create pods
 kubectl apply -f ".\platforms-depl.yaml"
 
-*Visualizar cluster
+*View deployments
 kubectl get deployment
 
-*Visualizar pods
+*View pods
 kubectl get pods
+
+*Delete deployment
+kubectl delete deployment "name of deploy"
+
+*View services
+kubectl get service
