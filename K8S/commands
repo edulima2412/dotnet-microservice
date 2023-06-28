@@ -1,0 +1,30 @@
+* Create deployments
+kubectl apply -f "name of yaml"
+
+* View deployments
+kubectl get deployment
+
+* View pods
+kubectl get pods
+
+* Delete deployment
+kubectl delete deployment "name of deploy"
+
+* View services
+kubectl get service
+
+* Restart deployments
+kubectl rollout restart deployment "name of deploy"
+
+* View namespaces
+kubectl get namespace
+
+* View pods with namespaces
+kubectl get pod --namespace="name of namespace"
+
+* View services with namespaces
+kubectl get service --namespace="name of namespace"
+
+
+--> Installation loadbalancer nginx
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.0.0/deploy/static/provider/cloud/deploy.yaml
